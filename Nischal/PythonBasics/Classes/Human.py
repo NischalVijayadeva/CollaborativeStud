@@ -42,7 +42,8 @@ if __name__ == "__main__":
     boy.walk()
     boy.talk()
     boy.height=174
-   
+
+    
 
     print(boy.SPECIES)
 

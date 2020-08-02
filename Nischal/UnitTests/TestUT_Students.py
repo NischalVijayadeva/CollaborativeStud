@@ -9,16 +9,15 @@ class TestUT_Students(unittest.TestCase):
     self.students = stud.Students()
 
   def setUp(self):
+    print("SetUp function")
     self.students = stud.Students()
-
     self.id = 1
     self.name = "Nischal"
     self.dept = "IT"
 
   def tearDown(self):
-    self.students = None
+    print("Tear down function")
 
-  def studentTeardown(self):
     self.students = None
 
   

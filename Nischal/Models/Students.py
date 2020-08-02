@@ -1,10 +1,12 @@
 import unittest 
-
 import Models.Student as stud
 
 students = list()
 
 class Students:
+
+  STUDENTS = list()
+
   def __init__(self):
       self.students = students
 
